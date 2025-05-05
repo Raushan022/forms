@@ -1,6 +1,7 @@
 import LoginForm from "./components/LoginForm";
 import PracLoginForm from "./components/practice/PracLoginForm";
 import SignUp from "./components/practice/SignUp";
+import SmallForma from "./components/practice/SmallForma";
 import Profile from "./components/Profile";
 import ValidateProfile from "./components/ValidateProfile";
 
@@ -11,7 +12,8 @@ function App() {
       {/* <PracLoginForm /> */}
       {/* <Profile /> */}
       {/* <ValidateProfile /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      <SmallForma />
     </>
   );
 }
